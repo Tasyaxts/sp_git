@@ -1,0 +1,108 @@
+html { margin:0; padding:0;}
+body { margin:0; padding:0;  color: #005a7c; font:normal 12px/18px Helvetice, Arial, sans-serif; }
+
+.clear:after { content:""; clear:both; display:block;}
+p { margin:0; padding:2px 0;}
+a { color:#0000ff; text-decoration:underline;}
+a:hover { color:#7777ff;}
+a img { border:none;}
+h1, h2, h3, h4, h5, h6 { margin:0; padding:0;}
+
+h2 { padding:0 0 12px;}
+strong { font-weight:bold;}
+em { font-style:italic;}
+form, menu, iframe { display:block; margin:0; padding:0; border:none;}
+ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
+* { outline:none;}
+a,img { display: block;}
+li {color: #cccccc;}
+li strong {color: #555555;}
+.resize {margin: 0 auto; width: 958px; position: relative;}
+
+header .logo {display:block; width: 450px;float: left; }
+header .heder_right { float: right; width: 450px;}
+
+
+header .blue { text-align: right;}
+header .blue a { display: inline-block; background: #0000ff;  color: #ffffff; padding:0 16px; text-decoration: none;}
+header .blue a:hover {  text-decoration: underline;}
+header .contacts { text-align: right;}
+
+
+header .tel_mail { display: inline-block; padding-top: 16px;}
+header .tel { background: url("../images/ico_phone.png") no-repeat left center; font-size: 30px; color: #242424; text-decoration: none; padding-left: 26px; }
+header .soc { display: inline-block; text-align: left;}
+header .icq { background: url("../images/ico_icq_03.png") no-repeat left center; padding-left: 24px;}
+header .skype {background: url("../images/skype.png") no-repeat left center; padding-left: 24px;}
+
+nav menu { display: table;  width:100%; background: #007cc1;  }
+nav li { display: table-cell; text-align: center;}
+nav li a { text-decoration: none;  padding: 10px 0; text-transform: uppercase; color: #ffffff;}
+nav li a:hover{}
+
+.posulka { height: 390px; position: relative; }
+.posulka img { display: block;}
+.posulka .text_block { position: absolute ; left: 20px; top:160px; width: 450px;}
+.posulka h1 { font-size: 49px; text-transform: uppercase; color: #fff; line-height: 1.2em; text-shadow: 0 1px 1px rgba(0,0,0,0.4);}
+.posulka p {color: #ffffff;}
+
+.advantages { padding: 40px 0 168px; position: relative;}
+.advantages:before { content:""; position: absolute;  bottom: 0; left: 50%; margin-left:-188px;  width: 377px; height: 88px; background: url("../images/under_button.png") no-repeat center center;}
+.advantages li { width: 312px; box-sizing: border-box; float: left; padding: 174px 24px 0; text-align: center; background: no-repeat center top;}
+.advantages li.clock { background-image: url("../images/clock.png");}
+.advantages li.money { background-image: url("../images/money.png");}
+.advantages li.prime { background-image: url("../images/prime.png");}
+.advantages li strong { padding-bottom: 10px; display: block; font-size: 18px; }
+
+
+.slayder { font-size: 0; line-height: 0;}
+.slayder li { padding-bottom: 16px; display: inline-block;}
+
+
+h2 { text-align: center; font-size: 30px; text-transform: uppercase;}
+.name li { width: 216px; float: left; text-align: left; padding: 0 22px 20px 0; }
+.name li strong { display: block; font-size: 18px; padding-bottom: 10px; }
+time { display: block; padding-top: 15px; font-size: 10px;}
+
+
+.pay { width: 460px; float: left;}
+.pay li { width: 146px; float: left;}
+p.show_all { display: inline-block;}
+.show_all a{  background:#e6f2f9;text-align: center; text-decoration: none; }
+.plagin {float: right;}
+
+
+.footer nav {background:#242424;}
+.footer nav menu { width:706px; text-align: left; background:none; padding: 10px 8px; float: left;}
+.footer_logo { float:right; padding-top: 15px;}
+
+
+.footer_button { padding-bottom: 60px; background:#2e2e2e;}
+.footer_button h3 { color:#e3e3e3; text-transform: uppercase; padding-top: 26px; padding-bottom: 12px;}
+.footer_button p { color:#ccc; font-size: 11px; line-height: 13px;}
+.footer_button .info { width: 258px; float:left; padding-right: 40px;}
+.footer_button .contact { width: 202px; float: left;}
+.footer_button .contact a {display: inline-block; color: #ccc; text-decoration: none;}
+.footer_button .contact a:hover { text-decoration: underline;}
+.footer_button .contact a[href^="tel:"] { font-size: 18px; line-height: 24px;}
+
+.footer_button .social { float: right; }
+
+.footer_button .social li {  float: left;}
+.footer_button .social li:not(:first-child) { padding-left: 10px;}
+.footer_button .social a { text-indent: -9000px; position: relative; width: 32px; height: 32px;}
+.footer_button .social a:before { content:"";  position: absolute; left: 0;	top: 0; width: 32px; height: 32px;background: url("../images/sprite.png") no-repeat;}
+.footer_button .social ul { padding: 10px 0;}
+
+.footer_button .social a.ico_1:before { background-position: -34px 0;}
+.footer_button .social a.ico_2:before { background-position: -68px 0;}
+.footer_button .social a.ico_3:before { background-position: 0 -34px; }
+.footer_button .social a.ico_4:before { background-position: -34px -34px; }
+.footer_button .social a.ico_5:before { background-position: -68px -34px;}
+.footer_button .social a.ico_6:before { background-position: 0 -68px;}
+.footer_button .social a.ico_7:before { background-position: -34px -68px; }
+.footer_button .social a.ico_8:before { background-position: -68px -68px; }
+
+.footer_button .social p { text-align: right;}
+
+
